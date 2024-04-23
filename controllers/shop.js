@@ -16,7 +16,7 @@ const express = require('express')
 
 const PDFDocument = require('pdfkit');
 
-const ITEMS_PER_PAGE = 1;
+const ITEMS_PER_PAGE = 4;
 
 exports.getProducts = (req,res,next) =>{
 
